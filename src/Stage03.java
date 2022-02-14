@@ -1,8 +1,8 @@
 public class Stage03 {
     public static void main(String[] args) {
-        System.out.println("Результаты логических операций с двумя boolean переменными:\n=====================");
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚С‹ Р»РѕРіРёС‡РµСЃРєРёС… РѕРїРµСЂР°С†РёР№ СЃ РґРІСѓРјСЏ boolean РїРµСЂРµРјРµРЅРЅС‹РјРё:\n=====================");
         boolean op1, op2;
-        System.out.println("op1 \t op2 \t| И \t ИЛИ \t иск.ИЛИ");
+        System.out.println("op1 \t op2 \t| Р \t РР›Р \t РёСЃРє.РР›Р");
         System.out.println("-----\t----\t| ---\t-----\t-----");
         op1 = true; op2 = true;
         System.out.println(op1 + "\t" + op2 + "\t| " + (op1 & op2) + "\t" + (op1 | op2) + "\t" + (op1 ^ op2));
